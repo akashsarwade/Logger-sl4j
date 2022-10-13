@@ -1,0 +1,15 @@
+logging:
+  level:
+    org.springframework.web: ERROR
+    logging.level.com.logger.controller: DEBUG
+  pattern:
+    console: '%d{YYYY-MM-DD HH:MM:SS}-%msg%n'
+    file: 'logging.pattern.file="%d{YYYY-MM-DD HH:MM:SS} [%thread] %-5level %logger{636} - %msg%n'
+  file:
+    path: C:\DevTools\SL4J\api.log
+
+
+
+
+server:
+  port: 9090
